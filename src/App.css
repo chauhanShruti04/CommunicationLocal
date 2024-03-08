@@ -1,0 +1,241 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: white;
+    margin: 9px !important;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-box {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00000040;
+    max-width: 400px;
+    margin-right: 130px;
+    margin-left: 40px;
+}
+
+.loginFormBox {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.loginForm {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginForm input {
+    width: 100%;
+    border: solid 1px #e1e1e1;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+    padding: 15px 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.loginTitle h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-field button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.loginForm button {
+    width: 100%;
+    background-image: linear-gradient(#055585, #2567c0);
+    color: #fff;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.link {
+    color: #1a61ac;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.forgotPass {
+    margin-bottom: 20px;
+    float: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+.register-box {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00000040;
+    max-width: 400px;
+    margin-right: 130px;
+    margin-left: 40px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.cancel_btn {
+    color: white !important;
+    background-color: red !important;
+}
+
+.customTable {
+    border-collapse: collapse;
+    /* width: 100%; */
+    text-align: center;
+}
+
+.customTable th,
+.customTable td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.customTable thead th {
+    border: 2px solid black;
+    background-color: #f2f2f2;
+}
+
+.group_chat {
+    height: 60vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 10px;
+    border: 1px solid purple;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 2%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+}
+
+
+.group_text {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.heading {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.user_text {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.btn {
+    margin-left: 5px;
+}
+
+.left-arrow {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 10px !important;
+}
+
+.left-arrow::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid red;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.choose_user {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.user_list {
+    width: 160px;
+    height: 40px;
+    margin-right: 10px;
+
+}
+
+.go_back {
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.welcome {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 10px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.username {
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #fff;
+}
+
+.span {
+    color: red;
+    margin-top: 100px !important;
+    font-size: 20px !important;
+    text-align: center !important;
+    align-items: center !important;
+    justify-content: center;
+}
